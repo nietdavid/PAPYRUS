@@ -16,6 +16,16 @@ while (continuer)
     Console.WriteLine("4. Lister tous les produits");
     Console.WriteLine("5. Voir un produit par son code");
     Console.WriteLine("0. Quitter");
+
+
+
+
+
+
+
+
+
+
     Console.Write("Votre choix : ");
     string? choix = Console.ReadLine();
 
