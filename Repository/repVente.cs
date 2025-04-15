@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;    // Pour SqlConnection, SqlCommand, etc.
+using PAPYRUS.Data;
 using PAPYRUS.Models;              // Pour utiliser la classe Produit
 
 namespace PAPYRUS.Repository
