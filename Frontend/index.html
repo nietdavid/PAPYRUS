@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gestion de Produits</title>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#mes-produits">Mes Produits</a></li>
+            <li><a href="#voir-produit">Voir un Produit</a></li>
+            <li><a href="#modifier-produit">Modifier un Produit</a></li>
+            <li><a href="#ajouter-produit">Ajouter un Produit</a></li>
+            <li><a href="#supprimer-produit">Supprimer un Produit</a></li>
+        </ul>
+    </nav>
+
+    <header class="masthead">
+        <div class="masthead-heading">Bienvenue sur votre gestionnaire de produits</div>
+    </header>
+
+    <section id="mes-produits">
+        <h2>Mes Produits</h2>
+        <p class="text-muted">Section en construction...</p>
+    </section>
+
+    <section id="voir-produit">
+        <h2>Voir un Produit</h2>
+        <p class="text-muted">Section en construction...</p>
+    </section>
+
+    <section id="modifier-produit">
+        <h2>Modifier un Produit</h2>
+        <p class="text-muted">Section en construction...</p>
+    </section>
+
+    <section id="ajouter-produit">
+        <h2>Ajouter un Produit</h2>
+        <p class="text-muted">Veuillez renseigner les informations du produit à ajouter.</p>
+        <form id="produitForm">
+            <div class="form-group">
+                <input class="form-control" id="codart" type="text" placeholder="Code article *" required />
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="libart" type="text" placeholder="Libellé *" required />
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="stkale" type="number" placeholder="Stock alerte *" required />
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="stkphy" type="number" placeholder="Stock physique *" required />
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="qteann" type="number" placeholder="Quantité annuelle *" required />
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="unimes" type="text" placeholder="Unité de mesure *" required />
+            </div>
+            <div class="form-group">
+                <button class="btn-success" type="submit">Ajouter le produit</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="supprimer-produit">
+        <h2>Supprimer un Produit</h2>
+        <p class="text-muted">Section en construction...</p>
+    </section>
+
+    <footer>
+        Mon Projet PAPYRUS - CRUD Produit
+    </footer>
+</body>
+</html>
