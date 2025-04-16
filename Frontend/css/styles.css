@@ -4,7 +4,6 @@ html {
   scroll-padding-top: 70px;
 }
 
-
 /* Style général */
 body {
   margin: 0;
@@ -73,6 +72,40 @@ h2 {
   color: #666;
 }
 
+/* Produits */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.label {
+  font-weight: bold;
+}
+
+#voir-produit .product-card {
+  margin: 0 auto;
+}
+
+#modifier-produit .product-card{
+  margin: 0 auto;
+}
+
+#supprimer-produit .product-card{
+  margin: 0 auto;
+}
+
 /* Formulaire */
 form {
   max-width: 600px;
@@ -91,9 +124,22 @@ form {
   box-sizing: border-box;
 }
 
+.form-inline {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.form-inline .form-control {
+  flex: 1;
+  min-width: 250px;
+}
 /* Boutons */
-.btn-success {
-  background-color: #28a745;
+.btn {
+  background-color: #0a62b4;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -101,8 +147,8 @@ form {
   cursor: pointer;
 }
 
-.btn-success:hover {
-  background-color: #218838;
+.btn:hover {
+  background-color: #084d94;
 }
 
 /* Pied de page */

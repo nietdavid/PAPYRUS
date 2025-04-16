@@ -16,26 +16,79 @@
             <li><a href="#supprimer-produit">Supprimer un Produit</a></li>
         </ul>
     </nav>
-
+    
     <header class="masthead">
         <div class="masthead-heading">Bienvenue sur votre gestionnaire de produits</div>
     </header>
-
+    <!--Tous mes produits-->
     <section id="mes-produits">
         <h2>Mes Produits</h2>
-        <p class="text-muted">Section en construction...</p>
+        <div class="product-list">
+            <div class="product-card">
+                <h3>Produit A</h3>
+                <p><span class="label">Code :</span> ABC123</p>
+                <p><span class="label">Stock alerte :</span> 10</p>
+                <p><span class="label">Stock physique :</span> 25</p>
+                <p><span class="label">Quantité annuelle :</span> 120</p>
+                <p><span class="label">Unité :</span> kg</p>
+            </div>
+            <div class="product-card">
+                <h3>Produit B</h3>
+                <p><span class="label">Code :</span> XYZ789</p>
+                <p><span class="label">Stock alerte :</span> 5</p>
+                <p><span class="label">Stock physique :</span> 8</p>
+                <p><span class="label">Quantité annuelle :</span> 90</p>
+                <p><span class="label">Unité :</span> pcs</p>
+            </div>
+        </div>
     </section>
-
+    
+    <!--Un seul produit-->
     <section id="voir-produit">
         <h2>Voir un Produit</h2>
-        <p class="text-muted">Section en construction...</p>
+    
+        <!-- Formulaire de recherche -->
+        <form class="product-search-form">
+            <div class="form-inline">
+                <input class="form-control" type="text" placeholder="Entrez le code article" required />
+                <button class="btn" type="submit">Rechercher</button>
+            </div>
+        </form>        
+    
+        <!-- Carte du produit affiché -->
+        <div class="product-card">
+            <h3>Produit A</h3>
+            <p><span class="label">Code :</span> ABC123</p>
+            <p><span class="label">Stock alerte :</span> 10</p>
+            <p><span class="label">Stock physique :</span> 25</p>
+            <p><span class="label">Quantité annuelle :</span> 120</p>
+            <p><span class="label">Unité :</span> kg</p>
+        </div>
     </section>
-
+    
+    <!--Modifier un produit-->
     <section id="modifier-produit">
         <h2>Modifier un Produit</h2>
-        <p class="text-muted">Section en construction...</p>
+    
+        <!-- Formulaire de recherche -->
+        <form class="product-search-form">
+            <div class="form-inline">
+                <input class="form-control" type="text" placeholder="Entrez le code de l'article à modifier" required />
+                <button class="btn" type="submit">Rechercher</button>
+            </div>
+        </form>        
+    
+        <!-- Carte du produit affiché -->
+        <div class="product-card">
+            <h3>Produit A</h3>
+            <p><span class="label">Code :</span> ABC123</p>
+            <p><span class="label">Stock alerte :</span> 10</p>
+            <p><span class="label">Stock physique :</span> 25</p>
+            <p><span class="label">Quantité annuelle :</span> 120</p>
+            <p><span class="label">Unité :</span> kg</p>
+        </div>
     </section>
-
+    <!--Ajouter un produit-->
     <section id="ajouter-produit">
         <h2>Ajouter un Produit</h2>
         <p class="text-muted">Veuillez renseigner les informations du produit à ajouter.</p>
@@ -59,14 +112,31 @@
                 <input class="form-control" id="unimes" type="text" placeholder="Unité de mesure *" required />
             </div>
             <div class="form-group">
-                <button class="btn-success" type="submit">Ajouter le produit</button>
+                <button class="btn" type="submit">Ajouter le produit</button>
             </div>
         </form>
     </section>
-
+    <!--Supprimer un produit-->
     <section id="supprimer-produit">
         <h2>Supprimer un Produit</h2>
-        <p class="text-muted">Section en construction...</p>
+    
+        <!-- Formulaire de recherche -->
+        <form class="product-search-form">
+            <div class="form-inline">
+                <input class="form-control" type="text" placeholder="Entrez le code de l'article à supprimer" required />
+                <button class="btn" type="submit">Rechercher</button>
+            </div>
+        </form>        
+    
+        <!-- Carte du produit affiché -->
+        <div class="product-card">
+            <h3>Produit A</h3>
+            <p><span class="label">Code :</span> ABC123</p>
+            <p><span class="label">Stock alerte :</span> 10</p>
+            <p><span class="label">Stock physique :</span> 25</p>
+            <p><span class="label">Quantité annuelle :</span> 120</p>
+            <p><span class="label">Unité :</span> kg</p>
+        </div>
     </section>
 
     <footer>

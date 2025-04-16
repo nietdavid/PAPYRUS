@@ -87,8 +87,7 @@ namespace PAPYRUS.Controllers
         }
 
         // Méthode pour ajouter un produit.
-        // Elle récupère les données saisies via la vue, appelle la méthode business pour ajouter le produit,
-        // et affiche le résultat retourné à l'utilisateur.
+        // Elle récupère les données saisies via la vue, appelle la méthode business pour ajouter le produit, et affiche le résultat retourné à l'utilisateur.
         public void AjouterProduit()
         {
             // Demande à l'utilisateur de saisir les informations du produit et crée un objet Produit avec ces informations.
@@ -103,8 +102,7 @@ namespace PAPYRUS.Controllers
         }
 
         // Méthode pour supprimer un produit.
-        // Elle demande le code du produit à supprimer, appelle la méthode correspondante dans la couche Business,
-        // et affiche le message de résultat.
+        // Elle demande le code du produit à supprimer, appelle la méthode correspondante dans la couche Business, et affiche le message de résultat.
         public void SupprimerProduit()
         {
             // Demande à l'utilisateur de saisir le code du produit à supprimer.
