@@ -40,3 +40,6 @@ packages/
 
 # Autres fichiers à ignorer
 FileContentIndex/
+
+#ignore app settings
+appsettings.json
